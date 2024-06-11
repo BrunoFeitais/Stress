@@ -7,4 +7,4 @@ All the temperatures are saved on a txt file in the same directory of the shell 
 
 
 ATTENTION:
-If you do not get any temperature, change line 43 ->  sensors | grep "temp1:" | tee -a ./StressTemperature.txt  <-. Change the "temp1:" parameter of grep.
+If you do not get any temperature, change line 43 ->  sensors | grep "temp1:" | tee -a ./StressTemperature.txt  <-. Change the "temp1:" parameter of grep or uncomment line 44 ;)
