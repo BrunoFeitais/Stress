@@ -41,6 +41,7 @@ int=0
 while [ $int -le $tempoTotal ]
 do
     sensors | grep "temp1:" | tee -a ./StressTemperature.txt
+    # sensors | tee -a ./StressTemperature.txt
     sleep $tempoSample
     int=$(( $int + $tempoSample ))
 done
